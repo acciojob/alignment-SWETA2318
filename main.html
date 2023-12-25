@@ -1,98 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Assignment 3</title>
-    <style>
-        body {
-            text-align: center;
-        }
-        h1 {
-            text-align: center;
-        }
-        table {
-            border: 1px solid black;
-            border-spacing: 1px;
-            border-collapse: collapse;
-            margin: 10px auto;
-        }
-        td, th {
-            padding: 5px;
-        }
-        .green {
-            background-color: green;
-        }
-        .blue {
-            background-color: blue;
-        }
-        .middle {
-            text-align: center;
-        }
-        .center {
-            text-align: center;
-        }
-        .right {
-            text-align: right;
-        }
-    </style>
+	<link rel="stylesheet" href="styles.css">
+	<title>HTML Assignment 3</title>
 </head>
+
 <body>
+	<!-- the entire body must be written by student -->
+	<h1 id="heading">HTML Assignment #3</h1>
+	<table border="1" class="middle" id="table-1">
+		<tr><td id="t11">left</td>
+			<td id="center" >center</td>
+			<td >right</td>
+		</tr>
+		<tr class="center" id="t12" ><td class="right">left</td>
+			<td>center</td>
+			<td>right</td>
+		</tr>
+		<tr class="right" id="t13" ><td>left</td>
+			<td>center</td>
+			<td>right</td>
+		</tr>
+	</table>
 
-    <h1>HTML Assignment #3</h1>
+	<table  border="1" class="middle" id="table-2">
+		<tr colspan="6" id="t21">
+		<td >r1</td>
+		</tr>
+		<tr>
+			<td>r2</td>
+		</tr>
+		<tr>
+			<td>r3</td>
+		</tr>
+		<tr>
+			<td>r4</td>
+		</tr>
+		<tr>
+			<td>r5</td>
+		</tr>
+		<tr>
+			<td>r6</td>
+		</tr>
+	</table>
+	
 
-    <!-- Table 1 -->
-    <table id="table-1" class="middle">
-        <tr>
-            <td id="t11">Row 1, Cell 1</td>
-            <td id="t12">Row 1, Cell 2</td>
-            <td id="t13">Row 1, Cell 3</td>
-        </tr>
-        <tr>
-            <td>Row 2, Cell 1</td>
-            <td>Row 2, Cell 2</td>
-            <td>Row 2, Cell 3</td>
-        </tr>
-        <tr>
-            <td class="center">Row 3, Cell 1</td>
-            <td>Row 3, Cell 2</td>
-            <td class="right">Row 3, Cell 3</td>
-        </tr>
-    </table>
-
-    <!-- Table 2 -->
-    <table id="table-2" class="middle">
-        <tr>
-            <td id="t21" colspan="6">Row 1, Cell 1 - colspan 6</td>
-        </tr>
-        <tr>
-            <td>Row 2, Cell 1</td>
-            <td>Row 2, Cell 2</td>
-            <td>Row 2, Cell 3</td>
-            <td>Row 2, Cell 4</td>
-            <td>Row 2, Cell 5</td>
-            <td>Row 2, Cell 6</td>
-        </tr>
-        <!-- Add more rows as needed -->
-    </table>
-
-    <!-- Table 3 -->
-    <table id="table-3" class="middle">
-        <tr class="green">
-            <td id="t-image" colspan="3"><img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fgray-kgwn-prod.cdn.arcpublishing.com%2Fresizer%2Fv2%2FJVJDGG4GTVOCHBZNUKAIY4E7FM.jpg%3Fauth%3Deccf71be8e48424586a7c1516e9a9fb7ef4f81052cae87f897d41f05a9e0c8be%26width%3D800%26height%3D450%26smart%3Dtrue&tbnid=Gf2zj_MvF-5PsM&vet=12ahUKEwiKwPzR-fCCAxXKRWcHHVOWDjQQMyguegUIARCwAQ..i&imgrefurl=https%3A%2F%2Fwww.wyomingnewsnow.tv%2Fsports%2Fbetting%2F2023%2F11%2F29%2Fcolorado-state-colorado-college-basketball-picks-predictions%2F&docid=u0dr5YDPZSo0RM&w=800&h=450&itg=1&q=basketball%20pick&ved=2ahUKEwiKwPzR-fCCAxXKRWcHHVOWDjQQMyguegUIARCwAQ" alt="Your Image"></td>
-        </tr>
-        <tr>
-            <td>Row 2, Cell 1</td>
-            <td>Row 2, Cell 2</td>
-            <td>Row 2, Cell 3</td>
-        </tr>
-        <tr class="blue">
-            <td>Row 3, Cell 1</td>
-            <td>Row 3, Cell 2</td>
-            <td>Row 3, Cell 3</td>
-        </tr>
-    </table>
+	<table border="1" class="middle" id="table-3" >
+		<tr id="tr1">
+			<td>r1</td>
+		</tr>
+		<tr>
+			<td id="t-image"><img width="200px" src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"></td>
+		<tr id="tr3">
+			<td>r3</td>
+		</tr>
+	</table>
+    <script type="text/javascript" src="./script.js">
+</script>
 
 </body>
+
 </html>
